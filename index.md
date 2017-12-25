@@ -5,8 +5,8 @@
 
 # 一、基础
 
-* [设计模式](https://github.com/ezhuo/tellme/tree/master/DESIGN)
-* [LINUX](https://github.com/ezhuo/tellme/tree/master/LINUX)
+* [设计模式](https://github.com/ezhuo/ezhuo.github.io/tree/master/DESIGN)
+* [LINUX](https://github.com/ezhuo/ezhuo.github.io/tree/master/LINUX)
 
 # 二、前端开发
 
@@ -241,19 +241,19 @@
 
 ## 3.2、Python
 
-* [前往阅读](https://github.com/ezhuo/tellme/tree/master/API/PYTHON)
+* [前往阅读](https://github.com/ezhuo/ezhuo.github.io/tree/master/API/PYTHON)
 
 ## 3.3、GO
 
-* [前往阅读](https://github.com/ezhuo/tellme/tree/master/API/GO)
+* [前往阅读](https://github.com/ezhuo/ezhuo.github.io/tree/master/API/GO)
 
 ## 3.4、JAVA/ANDROID
 
-* [](https://github.com/ezhuo/tellme/tree/master/API/GO)
+* [](https://github.com/ezhuo/ezhuo.github.io/tree/master/API/GO)
 
 # 三、DATABASE
 
-* [前往阅读](https://github.com/ezhuo/tellme/tree/master/DATABASE)
+* [前往阅读](https://github.com/ezhuo/ezhuo.github.io/tree/master/DATABASE)
 
 # 四、项目管理工具
 
@@ -263,4 +263,4 @@
 * VSCODE
 * SUBLIME
 
-## 2、[GIT](https://github.com/ezhuo/tellme/tree/master/MANAGER/GIT)
+## 2、[GIT](https://github.com/ezhuo/ezhuo.github.io/tree/master/MANAGER/GIT)
