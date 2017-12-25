@@ -1,0 +1,13 @@
+情景如下：
+
+有一个没有typescript声明文件的library叫library1，另外在全局namespace中有一个namespace叫library1。如果想用名叫library1的Library，我们可以使用delcare进行重新声明，如下面的code：
+
+declare var library1；
+
+这个声明应该在class的外部。
+
+这样Typescript运行时会认为library1的type是any。这里只会造成不能只能提示的问题，但我们能使用这个library了。
+
+总结：
+
+在Typescript中'declare'关键字可以被用于声明不是来自TypeScript类型的文件的变量。
