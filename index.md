@@ -18,11 +18,11 @@
 
 * [HTML 教程](http://www.w3school.com.cn/html/index.asp)，[HTML 参考手册](http://www.w3school.com.cn/tags/index.asp)
 * [CSS 教程](http://www.w3school.com.cn/css/index.asp)，[CSS 参考手册](http://www.w3school.com.cn/cssref/index.asp)
+* [MDN HTML 中文文档](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
+* [MDN CSS 中文文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
 * [CSS 参考手册](http://css.doyoe.com/)
 * [Sass Guidelines 中文](http://sass-guidelin.es/zh/)
 * [学习 CSS 布局](http://zh.learnlayout.com/)
-* [MDN HTML 中文文档](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
-* [MDN CSS 中文文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
 
 ### 2.1.2. ECMAScript
 
@@ -33,6 +33,7 @@
 * [JavaScript 教程（廖雪峰）](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 * [ECMAScript 5.1 中文版](http://yanhaijing.com/es5)
 * [JavaScript 核心概念及实践](http://icodeit.org/jsccp/) (PDF) (此书已由人民邮电出版社出版发行，但作者依然免费提供 PDF 版本，希望开发者们去购买，支持作者)
+* [MDN JavaScript 文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 
 #### 进阶阅读
 
