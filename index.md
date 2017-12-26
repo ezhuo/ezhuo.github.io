@@ -5,7 +5,7 @@
 
 # 一、基础
 
-* [设计模式](https://github.com/ezhuo/ezhuo.github.io/tree/master/DESIGN)
+* [设计模式](./DESIGN)
 * [LINUX](https://github.com/ezhuo/ezhuo.github.io/tree/master/LINUX)
 
 # 二、前端开发
