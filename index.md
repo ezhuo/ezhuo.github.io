@@ -30,10 +30,9 @@
 
 * [JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/)
 * [ECMAScript 6 入门（阮一峰）](http://es6.ruanyifeng.com)
-* [JavaScript 教程（廖雪峰）](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
-* [ECMAScript 5.1 中文版](http://yanhaijing.com/es5)
-* [JavaScript 核心概念及实践](http://icodeit.org/jsccp/) (PDF) (此书已由人民邮电出版社出版发行，但作者依然免费提供 PDF 版本，希望开发者们去购买，支持作者)
 * [MDN JavaScript 文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+* [MDN JavaScript 全部页面索引](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Index)
+* [ECMAScript 5.1 中文版](http://yanhaijing.com/es5)
 
 #### 进阶阅读
 
@@ -44,6 +43,8 @@
 * [深入理解 JavaScript 系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 * [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) (深入 JavaScript 语言核心机制的系列图书)
 * [学用 JavaScript 设计模式](http://www.oschina.net/translate/learning-javascript-design-patterns) (开源中国)
+* [JavaScript 教程（廖雪峰）](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
+* [JavaScript 核心概念及实践](http://icodeit.org/jsccp/) (PDF) (此书已由人民邮电出版社出版发行，但作者依然免费提供 PDF 版本，希望开发者们去购买，支持作者)
 
 ### 2.1.3. Node.js
 
@@ -198,7 +199,7 @@
 
 ---
 
-# 三、后端开发
+# 三、中间层
 
 ## 3.1、PHP
 
@@ -252,16 +253,14 @@
 
 * [](./API/GO)
 
-# 三、DATABASE
+# 三、数据库
 
 * [前往阅读](./DATABASE)
 
-# 四、项目管理工具
+# 四、项目管理
 
-## 1、IDE
-
+* [前往阅读](./project)
+* [GIT](./MANAGER/GIT)
 * JetBrains
 * VSCODE
 * SUBLIME
-
-## 2、[GIT](./MANAGER/GIT)
