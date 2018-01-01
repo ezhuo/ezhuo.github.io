@@ -259,7 +259,7 @@
 
 # 四、项目管理
 
-* [前往阅读](./project)
+* [前往阅读](./PROJECT)
 * [GIT](./MANAGER/GIT)
 * JetBrains
 * VSCODE
