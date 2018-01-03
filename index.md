@@ -90,6 +90,8 @@
 * [vue-loader](https://vue-loader.vuejs.org/zh-cn)
 * [UI 框](https://vux.li)
 * [axios](https://github.com/axios/axios)
+* [demo:vue2-elm](https://github.com/bailicangdu/vue2-elm)
+* [demo:vue-weixin](https://github.com/bailichen/vue-weixin)
 
 ### 2.2.2 Angular
 
@@ -97,10 +99,10 @@
 * [GITHUB](https://github.com/angular/angular)
 * [中文官网](https://www.angular.cn)
 * [Angular 4.x 修仙之路](https://segmentfault.com/a/1190000008754631)
-* [AngularCli](https://github.com/angular/angular-cli)
-* [RXJSGITHUB](https://github.com/Reactive-Extensions/RxJS)
+* [RXJS GITHUB](https://github.com/Reactive-Extensions/RxJS)
 * [RxJS 中文 API](http://rxjs-china.org/_book/)
 * [RxJS Operators 详解](https://segmentfault.com/a/1190000008834251)
+* [demo:ngx-admin](https://github.com/akveo/ngx-admin)
 
 ### 2.2.3 IONIC
 
@@ -118,14 +120,7 @@
 * [React Native 中文文档(含最新 Android 内容)](http://wiki.jikexueyuan.com/project/react-native/)
 * [Learn React & Webpack by building the Hacker News front page](https://github.com/theJian/build-a-hn-front-page)
 
-### 2.2.5 JQUERY
-
-* [GITHUB](https://github.com/jquery/jquery)
-* [简单易懂的 JQuery 魔法](http://www.nowamagic.net/librarys/books/contents/jquery)
-* [How to write jQuery plugin](http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html)
-* [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.zh-CN.md)
-
-### 2.2.6 Cordova
+### 2.2.5 Cordova
 
 * [官方网站](http://cordova.apache.org/#getstarted)
 * [教程](https://www.w3cschool.cn/cordova)
