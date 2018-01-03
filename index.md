@@ -1,6 +1,6 @@
 > **此 repo 的主要有两个目的：一方面是为了将自己的知识能够沉淀；二方面是今后能保持持续的学习。**
 >
-> * 感谢：此文借鉴了[justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ，[skill-map](https://github.com/TeamStuQ/skill-map)
+> * 感谢：此文借鉴了[justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ，[skill-map](https://github.com/TeamStuQ/skill-map)，[awesome-github-vue](https://github.com/opendigg/awesome-github-vue)
 > * 博客：[阮一峰](http://www.ruanyifeng.com/blog/)，[廖雪峰](https://www.liaoxuefeng.com/)
 
 # 一、基础
