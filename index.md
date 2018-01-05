@@ -36,14 +36,12 @@
 
 #### 进阶阅读
 
-* [javascript 的 12 个怪癖](https://github.com/justjavac/12-javascript-quirks)
 * [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
 * [命名函数表达式探秘](http://justjavac.com/named-function-expressions-demystified.html) (注:原文由[为之漫笔](http://www.cn-cuckoo.com)翻译，原始地址无法打开，所以此处地址为我博客上的备份)
 * [JavaScript Promise 迷你书](http://liubin.github.io/promises-book/)
 * [深入理解 JavaScript 系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 * [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) (深入 JavaScript 语言核心机制的系列图书)
 * [学用 JavaScript 设计模式](http://www.oschina.net/translate/learning-javascript-design-patterns) (开源中国)
-* [JavaScript 教程（廖雪峰）](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 * [JavaScript 核心概念及实践](http://icodeit.org/jsccp/) (PDF) (此书已由人民邮电出版社出版发行，但作者依然免费提供 PDF 版本，希望开发者们去购买，支持作者)
 
 ### 2.1.3. Node.js
