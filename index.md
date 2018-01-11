@@ -97,12 +97,16 @@
 * [GITHUB](https://github.com/angular/angular)
 * [中文官网](https://www.angular.cn)
 * [Angular 4.x 修仙之路](https://segmentfault.com/a/1190000008754631)
+
+### 2.2.3 RXJS
+
 * [RXJS GITHUB](https://github.com/Reactive-Extensions/RxJS)
-* [RxJS 中文 API](http://rxjs-china.org/_book/)
+* [RxJS 中文教程](http://cn.rx.js.org/)
+* [RxJS 中文社区](https://github.com/RxJS-CN)
 * [RxJS Operators 详解](https://segmentfault.com/a/1190000008834251)
 * [demo:ngx-admin](https://github.com/akveo/ngx-admin)
 
-### 2.2.3 IONIC
+### 2.2.4 IONIC
 
 * [ionic-cli](https://github.com/ionic-team/ionic-cli)
 * [cordova-cli](https://github.com/apache/cordova-cli)
@@ -110,7 +114,7 @@
 * [官网](http://ionicframework.com/docs/components)
 * [Apache Cordova 开发指南](https://github.com/waylau/cordova-dev-guide)
 
-### 2.2.4 React.js
+### 2.2.5 React.js
 
 * [React.js 中文文档](https://doc.react-china.org/)
 * [React webpack-cookbook](https://github.com/fakefish/react-webpack-cookbook)
@@ -118,7 +122,7 @@
 * [React Native 中文文档(含最新 Android 内容)](http://wiki.jikexueyuan.com/project/react-native/)
 * [Learn React & Webpack by building the Hacker News front page](https://github.com/theJian/build-a-hn-front-page)
 
-### 2.2.5 Cordova
+### 2.2.6 Cordova
 
 * [官方网站](http://cordova.apache.org/#getstarted)
 * [教程](https://www.w3cschool.cn/cordova)
