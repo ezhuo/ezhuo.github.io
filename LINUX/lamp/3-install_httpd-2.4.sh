@@ -63,17 +63,3 @@ echo "httpd安装结束."
 echo "httpd正在启动..."
 /etc/init.d/httpd restart
 service httpd restart
-
-# ---------------------------------------------
-
-# vi /usr/local/apache2/conf/httpd.conf #编辑配置文件
-# 找到：#ServerName www.example.com:80
-# 修改为：ServerName localhost:80
-# 找到：DirectoryIndex index.html
-# 修改为：DirectoryIndex index.html index.php
-# 找到：Options Indexes FollowSymLinks
-# 修改为：Options FollowSymLinks #不显示目录结构
-# 找到AllowOverride None
-# 修改为：AllowOverride All #开启apache支持伪静态，有两处都做修改
-# LoadModule rewrite_module modules/mod_rewrite.so #取消前面的注释，开启apache支持伪静态
-# echo "ServerName localhost:80" >> /etc/httpd/conf/httpd.conf

@@ -23,6 +23,7 @@
 * [CSS 参考手册](http://css.doyoe.com/)
 * [Sass Guidelines 中文](http://sass-guidelin.es/zh/)
 * [学习 CSS 布局](http://zh.learnlayout.com/)
+* [ant design 设计语言](https://ant.design/docs/spec/introduce-cn)
 
 ### 2.1.2. ECMAScript
 
@@ -97,6 +98,7 @@
 * [GITHUB](https://github.com/angular/angular)
 * [中文官网](https://www.angular.cn)
 * [Angular 4.x 修仙之路](https://segmentfault.com/a/1190000008754631)
+* [NG-ZORRO](https://ng.ant.design)
 
 ### 2.2.3 RXJS
 
@@ -121,6 +123,7 @@
 * [React 入门教程](http://fraserxu.me/intro-to-react/)
 * [React Native 中文文档(含最新 Android 内容)](http://wiki.jikexueyuan.com/project/react-native/)
 * [Learn React & Webpack by building the Hacker News front page](https://github.com/theJian/build-a-hn-front-page)
+* [Ant Design](https://ant.design/index-cn)
 
 ### 2.2.6 Cordova
 

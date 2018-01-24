@@ -100,25 +100,3 @@ service httpd restart #重启apache
 
 echo "正在启动mysql service"
 service mysqld restart #重启mysql
-
-# ---------------------------------------------
-
-# vi /usr/local/php5/etc/php.ini #编辑
-# 找到：;open_basedir =
-# 修改为：open_basedir = .:/tmp/ #防止php木马跨站，重要!!
-# 找到：disable_functions =
-# 修改为：disable_functions=passthru,exec,system,chroot,scandir,chgrp,chown,shell_exec,proc_open,proc_get_status,ini_alter,ini_alter,ini_restore,dl,openlog,syslog,readlink,symlink,popepassthru,stream_socket_server,escapeshellcmd,dll,popen,disk_free_space,checkdnsrr,checkdnsrr,getservbyname,getservbyport,disk_total_space,posix_ctermid,posix_get_last_error,posix_getcwd, posix_getegid,posix_geteuid,posix_getgid, posix_getgrgid,posix_getgrnam,posix_getgroups,posix_getlogin,posix_getpgid,posix_getpgrp,posix_getpid, posix_getppid,posix_getpwnam,posix_getpwuid, posix_getrlimit, posix_getsid,posix_getuid,posix_isatty, posix_kill,posix_mkfifo,posix_setegid,posix_seteuid,posix_setgid, posix_setpgid,posix_setsid,posix_setuid,posix_strerror,posix_times,posix_ttyname,posix_uname
-
-# #列出PHP可以禁用的函数，如果某些程序需要用到这个函数，可以删除，取消禁用。
-# 找到：;date.timezone =
-# 修改为：date.timezone=PRC
-# 找到：expose_php = On
-# 修改为：expose_php = OFF #禁止显示php版本的信息
-# 找到：display_errors = On
-# 修改为：display_errors = OFF #关闭错误提示
-
-# 配置apache支持php
-# vi /usr/local/apache2/conf/httpd.conf #编辑apache配置文件
-# 在LoadModule php5_module modules/libphp5.so这一行下面添加、
-# AddType application/x-httpd-php .php (注意：php .php这个点前面有一个空格)
-# echo "AddType application/x-httpd-php .php" >> /etc/httpd/conf/httpd.conf
