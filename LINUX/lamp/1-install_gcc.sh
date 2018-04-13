@@ -9,7 +9,9 @@ package_dir=${cur_dir}/package
 
 yum -y remove mariadb* mysql MySQL-python perl-DBD-MySQL dovecot exim qt-MySQL perl-DBD-MySQL dovecot qt-MySQL mysql-server mysql-connector-odbc php-mysql mysql-bench libdbi-dbd-mysql mysql-devel-5.0.77-3.el5 httpd php mod_auth_mysql mailman squirrelmail php-pdo php-common php-mbstring php-cli
 
-yum -y install make  autoconf automake gcc gcc-c++ zlib-devel openssl openssl-devel pcre pcre-devel keyutils patch perl perl-Data-Dumper kernel kernel-headers mpfr cpp glibc glibc-devel libgomp libstdc++-devel ppl cloog-ppl keyutils-libs-devel libcom_err-devel libsepol-devel libselinux-devel krb5 krb5-devel zlib-devel  freetype freetype-devel   php-common php-gd compat* ncurses* libtool* libpng* libXpm* libjpeg* libxml2 libxml2-devel patch glib2 glib2-devel bzip2 bzip2-devel libjpeg libjpeg-devel libpng libpng-devel  ncurses ncurses-devel curl curl-devel e2fsprogs e2fsprogs-devel  openldap openldap-devel nss_ldap openldap-clients openldap-servers libcurl.x86_64 libcurl-devel.x86_64
+yum -y install make autoconf automake gcc gcc-c++ zlib-devel openssl openssl-devel pcre pcre-devel keyutils patch perl perl-Data-Dumper kernel kernel-headers mpfr cpp glibc glibc-devel libgomp libstdc++-devel ppl cloog-ppl keyutils-libs-devel libcom_err-devel libsepol-devel libselinux-devel krb5 krb5-devel zlib-devel
+yum -y install freetype freetype-devel php-common php-gd compat* ncurses* libtool* libpng* libXpm* libjpeg*
+yum -y install libxml2 libxml2-devel patch glib2 glib2-devel bzip2 bzip2-devel libjpeg libjpeg-devel libpng libpng-devel  ncurses ncurses-devel curl curl-devel e2fsprogs e2fsprogs-devel  openldap openldap-devel nss_ldap openldap-clients openldap-servers libcurl.x86_64 libcurl-devel.x86_64
 
 #yum -y install libcurl.x86_64 libcurl-devel.x86_64 libxml2 libxml2-devel
 

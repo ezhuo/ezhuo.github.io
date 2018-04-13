@@ -1,0 +1,8 @@
+#!/bin/sh
+#chkconfig:2345 80 90
+#description:httpsqs
+
+# -------------------------
+
+ulimit -SHn 65535 
+httpsqs -d -p 1218 -a dxinfo -x /home/httpsqs/queue

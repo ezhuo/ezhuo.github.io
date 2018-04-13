@@ -555,7 +555,7 @@ yum -y install wget
 
      tar zcvf resthome201506.tar.gz resthome --exclude=resthome/Uploads --exclude=resthome/New/Uploads --exclude=resthome/New/ORGA/Runtime --exclude=resthome/ORGA/Runtime
 
-21. httpsqs -d -p 1218 -a dxinfo -x /data0/queue
+21. httpsqs -d -p 1218 -a dxinfo -x /home/httpsqs/queue
 
 22. 修改IP
 

@@ -8,7 +8,10 @@
 
 ```bash
 1、修改 /etc/my.cnf，在 [mysqld] 小节下添加一行：
+sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
 skip-grant-tables=1
+保存退出后
+
 service mysqld restart
 mysql
 use mysql;
@@ -26,3 +29,30 @@ MySQL 5.7 在初始安装后（CentOS7 操作系统）会生成随机初始密�
 ```
 
 * 请启用opcache服务
+
+# BUG解决
+
+* linux安装mysql出现Could NOT find Curses (missing CURSES_LIBRARY CURSES_INCLUDE_PATH)解决方法
+```
+编译 mysql5.6.22
+出现以下错误提示：
+— Could NOT find Curses (missing:  CURSES_LIBRARY CURSES_INCLUDE_PATH)
+CMake Error at cmake/readline.cmake:82 (MESSAGE):
+Curses library not found.  Please install appropriate package,
+remove CMakeCache.txt and rerun cmake.On Debian/Ubuntu, package name is libncurses5-dev, on Redhat and derivates it is ncurses-devel.
+Call Stack (most recent call first):
+cmake/readline.cmake:126 (FIND_CURSES)
+cmake/readline.cmake:216 (MYSQL_USE_BUNDLED_LIBEDIT)
+CMakeLists.txt:250 (MYSQL_CHECK_READLINE)
+— Configuring incomplete, errors occurred!
+解决方法：
+[root@localhost mysql-5.5.11]# rm CMakeCache.txt
+[root@localhost mysql-5.5.11]# yum install ncurses-devel
+Warning: Bison executable not found in PATH
+— Configuring done
+— Generating done
+— Build files have been written to: /software/mysql-5.5.11
+[root@localhost mysql-5.5.11]# yum install bison
+[root@localhost mysql-5.5.11]# make && make install
+编译完成。
+```
