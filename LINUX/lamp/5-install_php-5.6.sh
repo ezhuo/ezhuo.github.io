@@ -88,6 +88,14 @@ echo "session.save_path = \"/tmp\"" >> /etc/php.ini
 echo "date.timezone=PRC" >> /etc/php.ini
 echo "expose_php=OFF" >> /etc/php.ini
 
+# -- php-fpm----------------
+cp /usr/local/php5/etc/php-fpm.conf.default /usr/local/php5/etc/php-fpm.conf
+echo "pid = run/php-fpm.pid" >> /usr/local/php5/etc/php-fpm.conf
+
+cd $pack_ver
+# cp /sapi/fpm/init.d.php-fpm /etc/init.d/php-fpm
+
+# -- 创建目录----
 mkdir -p /var/lib/php/session
 chmod 777 /var/lib/php/session
 
