@@ -244,11 +244,11 @@
 
 ## 3.2、Python
 
-- [前往阅读](./API/PYTHON)
+- [前往阅读](https://ezhuo.github.io/API/PYTHON/)
 
 ## 3.3、GO
 
-- [前往阅读](./API/GO)
+- [前往阅读](https://ezhuo.github.io/API/GO)
 
 ## 3.4、JAVA/ANDROID
 
@@ -260,12 +260,12 @@
 
 # 四、数据库
 
-- [前往阅读](./DATABASE)
+- [前往阅读](https://ezhuo.github.io/API/DATABASE)
 
 # 五、项目管理
 
-- [前往阅读](./PROJECT)
-- [GIT](./MANAGER/GIT)
+- [前往阅读](https://ezhuo.github.io/API/PROJECT)
+- [GIT](https://ezhuo.github.io/API/MANAGER/GIT)
 - JetBrains
 - VSCODE
 - SUBLIME
