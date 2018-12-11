@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{art.title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <div>
+        <h1>
+           主题： {{art.title}}
+        </h1>
+        <h2>
+            内容：{{art.content}}
+        </h2>
+    </div>
+    <div>
+        <a href="{% url 'edit' art.id %}">修改本文章</a>
+        <a href="{% url 'delete' art.id %}">删除本文章</a>
+    </div>
+</body>
+
+</html>

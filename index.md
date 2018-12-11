@@ -31,7 +31,6 @@
 
 - [JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/)
 - [JavaScript 教程](https://wangdoc.com/javascript)
-- [ECMAScript 5.1 中文版](http://yanhaijing.com/es5)
 - [ECMAScript 6 入门（阮一峰）](http://es6.ruanyifeng.com)
 - [MDN JavaScript 文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 - [MDN JavaScript 全部页面索引](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Index)
