@@ -52,3 +52,4 @@
 
 * Scrapy
   - [Scrapy 0.25 文档](http://scrapy-chs.readthedocs.org/zh_CN/latest/)
+  - [scrapy 中文网](http://www.scrapyd.cn/)

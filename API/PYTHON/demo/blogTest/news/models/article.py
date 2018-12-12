@@ -40,3 +40,8 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+
+
+class Memo(models.Model):
+    memo = models.CharField('备注', max_length=200)
+    question = models.ManyToManyField(Question)

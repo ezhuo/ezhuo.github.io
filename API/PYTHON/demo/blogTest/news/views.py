@@ -47,6 +47,8 @@ def detail(request, question_id):
     # except Question.DoesNotExist:
     #     raise Http404("Question does not exist")
     question = get_object_or_404(Question, pk=question_id)
+    print('b')
+    question.memo_set.create(memo='fdafdsa')
     return render(request, 'news/detail.html', {'question': question})
 
 
