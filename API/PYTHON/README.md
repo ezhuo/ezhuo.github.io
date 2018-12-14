@@ -54,3 +54,4 @@
   - [Scrapy 入门教程](https://scrapy-chs.readthedocs.io/zh_CN/1.0/intro/tutorial.html)
   - [scrapy 中文网](http://www.scrapyd.cn/)
   - [Scrapy 0.25 文档](http://scrapy-chs.readthedocs.org/zh_CN/latest/)
+  - [Scrapy 简单入门及实例讲解](https://www.cnblogs.com/kongzhagen/p/6549053.html)
