@@ -51,5 +51,6 @@
   - [Tornado 4.3 文档中文版](https://tornado-zh.readthedocs.org/zh/latest/)
 
 * Scrapy
-  - [Scrapy 0.25 文档](http://scrapy-chs.readthedocs.org/zh_CN/latest/)
+  - [Scrapy 入门教程](https://scrapy-chs.readthedocs.io/zh_CN/1.0/intro/tutorial.html)
   - [scrapy 中文网](http://www.scrapyd.cn/)
+  - [Scrapy 0.25 文档](http://scrapy-chs.readthedocs.org/zh_CN/latest/)
