@@ -251,7 +251,7 @@
 
 ## 3.4、JAVA/ANDROID
 
-- [前往阅读](https://ezhuo.github.io/API/GO)
+- [前往阅读](https://ezhuo.github.io/API/JAVA)
 
 # 三、服务层
 
