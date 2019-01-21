@@ -1,0 +1,56 @@
+2018-12-17 13:04:17 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: tutorial)
+2018-12-17 13:04:17 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:57:15) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0j  20 Nov 2018), cryptography 2.4.2, Platform Windows-10-10.0.10586-SP0
+2018-12-17 13:04:17 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'tutorial', 'LOG_FILE': 'a.log', 'NEWSPIDER_MODULE': 'tutorial.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['tutorial.spiders']}
+2018-12-17 13:04:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-12-17 13:04:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-17 13:04:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-17 13:04:18 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-12-17 13:04:18 [scrapy.core.engine] INFO: Spider opened
+2018-12-17 13:04:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-17 13:04:18 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-12-17 13:04:18 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.w3school.com.cn/robots.txt> (referer: None)
+2018-12-17 13:04:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.w3school.com.cn/html/html_basic.asp> (referer: None)
+2018-12-17 13:04:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.w3school.com.cn/html/html_elements.asp> (referer: None)
+2018-12-17 13:04:18 [mycustomlogger] INFO: ezhuo---------------- http://www.w3school.com.cn/html/html_basic.asp just arrived!
+2018-12-17 13:04:18 [mycustomlogger] INFO: ezhuo---------------- http://www.w3school.com.cn/html/html_elements.asp just arrived!
+2018-12-17 13:04:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-12-17 13:04:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 705,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 30462,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 12, 17, 5, 4, 18, 614356),
+ 'log_count/DEBUG': 4,
+ 'log_count/INFO': 9,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2018, 12, 17, 5, 4, 18, 249423)}
+2018-12-17 13:04:18 [scrapy.core.engine] INFO: Spider closed (finished)
