@@ -245,12 +245,10 @@
 
 - [前往阅读](https://ezhuo.github.io/API/PYTHON/)
 
-## 3.3、JAVA/ANDROID
+## 3.3、JAVA
 
-- 基础教程
-
-  - [菜鸟教程](http://www.runoob.com/java/java-tutorial.html)
-
+- [前往阅读](https://ezhuo.github.io/API/JAVA/)
+  
 ## 3.4、GO
 
 - [前往阅读](https://ezhuo.github.io/API/GO/)
