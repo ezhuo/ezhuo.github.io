@@ -247,11 +247,11 @@
 
 ## 3.3、GO
 
-- [前往阅读](https://ezhuo.github.io/API/GO)
+- [前往阅读](https://ezhuo.github.io/API/GO/)
 
 ## 3.4、JAVA/ANDROID
 
-- [前往阅读](https://ezhuo.github.io/API/JAVA)
+- [前往阅读](https://ezhuo.github.io/API/JAVA/)
 
 # 三、服务层
 
@@ -259,12 +259,12 @@
 
 # 四、数据库
 
-- [前往阅读](https://ezhuo.github.io/API/DATABASE)
+- [前往阅读](https://ezhuo.github.io/API/DATABASE/)
 
 # 五、项目管理
 
-- [前往阅读](https://ezhuo.github.io/API/PROJECT)
-- [GIT](https://ezhuo.github.io/API/MANAGER/GIT)
+- [前往阅读](https://ezhuo.github.io/API/PROJECT/)
+- [GIT](https://ezhuo.github.io/API/MANAGER/GIT/)
 - JetBrains
 - VSCODE
 - SUBLIME
