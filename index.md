@@ -245,13 +245,15 @@
 
 - [前往阅读](https://ezhuo.github.io/API/PYTHON/)
 
-## 3.3、GO
+## 3.3、JAVA/ANDROID
+
+- 基础教程
+
+  - [菜鸟教程](http://www.runoob.com/java/java-tutorial.html)
+
+## 3.4、GO
 
 - [前往阅读](https://ezhuo.github.io/API/GO/)
-
-## 3.4、JAVA/ANDROID
-
-- [前往阅读](https://ezhuo.github.io/API/JAVA/)
 
 # 三、服务层
 
